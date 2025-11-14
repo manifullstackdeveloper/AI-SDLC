@@ -3,7 +3,7 @@ import { CreateItemDto } from './dto/create-item.dto';
 import { UpdateItemDto } from './dto/update-item.dto';
 
 export interface Item {
-  id: string;
+  id: any;
   name: string;
   description: string;
   createdAt: Date;
